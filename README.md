@@ -42,3 +42,11 @@ WreckLab is designed to replicate real IT environments where systems are not cle
 
 ## Documentation
 Full documentation and progress tracking is available in the project pages and repository files.
+
+---
+
+#### *Disclaimer*
+
+*This documentation will be written in a structured and professional format, similar to real-world technical documentation used in IT environments for the most part.*
+
+*However, it will also include informal notes, reflections, and thought processes where useful. This is to allow flexibility in capturing real learning, experimentation, and iterative thinking. In places, the tone may become more conversational to help explain the what, how, and why behind decisions, making it easier for the reader (if there is one) to understand the reasoning behind the work and to just generally document the entire journey.*
