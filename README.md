@@ -28,8 +28,8 @@ WreckLab is divided into separate documentation areas:
 ---
 
 ## Status
-- Phase 0: The Machine
-- Phase 1: Proxmox Setup (in progress)
+- Phase 0: The Machine ✅
+- Phase 1: Proxmox Setup 🚧
 
 ---
 
