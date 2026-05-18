@@ -1,22 +1,22 @@
-### **Phase 0 - The Machine**
+# **Phase 0 - The Machine**
 
 This phase is about defining the purpose, identity and direction of this PC so it becomes a structured homelab/training environment.
 
 What will this machine be?
 	- Essentially a virtualisation host + Windows domain lab.
 
-#### **1. Machine Naming Process**
+## **1. Machine Naming Process**
 
 The name I have decided to give this machine is **WreckLab**.
 
-**Why?**
+***Why?***
 -  "Wreck" represents breaking things intentionally - corrupting setups, misconfiguring services and simulating failures
 -  "Lab" represents the controlled environment for experimentation and learning.
 -  WreckLab reflects the core philosophy:
 		- *A safe space to break systems, understand failure, and rebuild them properly.*
 
 I felt like this also gives the machine a strong identity that matches its purpose; a sandbox for controlled chaos and learning.
-#### **2. Machine Purpose, Reasoning and Planning**
+## **2. Machine Purpose, Reasoning and Planning**
 
 This machine will allow me to:
 	- Recreate real troubleshooting scenarios (Windows Issues, user access problems, networks faults)
@@ -25,7 +25,7 @@ This machine will allow me to:
 	- Build confidence with system administration tasks in a safe environment
 	- Break and fix systems intentionally to understand root causes.
 
-**Why did I take this route instead of taking paid IT courses or structure training programs?**
+***Why did I take this route instead of taking paid IT courses or structure training programs?***
 
 Well, mainly because paid courses can be quite expensive. Most courses are designed around teaching concepts in isolation and preparing you for exams and structured assessments in a controlled environment. However, Service Desk / IT Support work is often messy, scenario-driven, and root-cause focused. It’s less about memorising concepts and more about understanding _what broke, why it broke, and how to fix it under pressure_.
 
@@ -37,7 +37,7 @@ Courses typically provide a certificate. WreckLab, on the other hand, provides a
 
 I am not avoiding courses entirely, as I do recognise they are valuable for building foundational knowledge in areas such as networking fundamentals, Windows Server administration, cybersecurity basics, and cloud concepts (e.g., Azure or AWS). I will likely still take some courses in the future where they add value or structure is needed. However, I chose to create WreckLab because I am aiming to become someone who can confidently handle broken systems, not just someone who has studied them.
 
-#### **3. Scope Definition**
+## **3. Scope Definition**
 
 WreckLab will be virtualised IT Support training environment built on Proxmox VE. The system will be designed to simulate real-world IT infrastructure by hosting multiple isolated virtual machines that replicate enterprise environments.
 
@@ -88,7 +88,7 @@ These run as VMs inside Proxmox:
 - Snapshot-based rollback after failures
 - Service failure diagnosis and repair (Windows services, domain issues, etc.)
 
-#### **4. Post WreckLab Stability**
+## **4. Post WreckLab Stability**
 
 Once WreckLab is running and stable, I want to expand into (if additional hardware is introduced):
 -  Linux Server Environment
