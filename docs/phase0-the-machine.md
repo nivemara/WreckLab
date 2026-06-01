@@ -45,7 +45,7 @@ WreckLab will be virtualised IT Support training environment built on Proxmox VE
 -  Proxmox VE
 	-  Installed on hardware directly
 	-  BIOS Configuration for virtualisation support (Intel VT-x, boot order, power settings)
-	-  Storage configuration (HDD-based (for the time being), ZFS file system)
+	-  Storage configuration (HDD-based (for the time being), LVM/ZFS file system)
 	-  Network bridge setup for VM communication
 - Virtualisation Management
 	-  VM creation, deletion and lifecycle control
