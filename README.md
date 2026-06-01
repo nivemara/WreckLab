@@ -29,7 +29,8 @@ WreckLab is divided into separate documentation areas:
 
 ## Status
 - Phase 0: The Machine ✅
-- Phase 1: Proxmox Setup 🚧
+- Phase 1: Base Infrastructure ✅
+- Phase 2: Domain Controller VM 🚧
 
 ---
 
